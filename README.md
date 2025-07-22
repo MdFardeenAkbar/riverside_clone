@@ -13,7 +13,7 @@
 <h2>📌 Project Overview</h2>
 
 <p>
-  This is a frontend clone of the Riverside.fm website, focused on recreating its core UI/UX components such as advanced dropdown menus, smooth animations, and clean responsive layouts. The project is aimed at enhancing my skills in React, responsive design, and component structuring.
+ This is a frontend clone of Riverside.fm, but it’s not just about replicating its look—it’s about understanding how the platform delivers studio-quality recordings. Riverside achieves this by locally capturing every participant’s audio and video—up to 48 kHz uncompressed WAV and 4K video—directly on their device, then progressively uploading to the cloud as the session progresses, ensuring performance isn't impacted by internet issues. It stores individual tracks per guest (audio and video separate), offering fine-grained control during post-production. This clone explores recreating these functional behaviors in the UI: from the visual cues indicating recording status, to modular component layouts for session management. The aim is to grasp the architectural patterns behind Riverside’s workflow, while practicing React component design and frontend interactions inspired by their high-fidelity user journey.
 </p>
 
 <h2>🎯 Key Goals</h2>
