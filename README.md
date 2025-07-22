@@ -1,12 +1,70 @@
-# React + Vite
+<h1 align="center">🎥 Riverside.fm Clone (React)</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A work-in-progress clone of <a href="https://riverside.fm" target="_blank">Riverside.fm</a> built using <strong>React.js</strong> and <strong>CSS</strong>.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>Status:</strong> 🚧 In Development
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
 
-## Expanding the ESLint configuration
+<h2>📌 Project Overview</h2>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p>
+  This is a frontend clone of the Riverside.fm website, focused on recreating its core UI/UX components such as advanced dropdown menus, smooth animations, and clean responsive layouts. The project is aimed at enhancing my skills in React, responsive design, and component structuring.
+</p>
+
+<h2>🎯 Key Goals</h2>
+
+<ul>
+  <li>✅ Responsive homepage layout</li>
+  <li>✅ Reusable dropdown components (like Riverside’s Product/Solutions)</li>
+  <li>🔄 Footer CTA section</li>
+  <li>🔜 Dynamic routing (using React Router)</li>
+  <li>🔜 Scroll animations with Framer Motion</li>
+</ul>
+
+<h2>🧰 Tech Stack</h2>
+
+<table>
+  <tr>
+    <td><strong>Framework</strong></td>
+    <td>React.js (Vite or CRA)</td>
+  </tr>
+  <tr>
+    <td><strong>Styling</strong></td>
+    <td>CSS Modules / Tailwind CSS (TBD)</td>
+  </tr>
+  <tr>
+    <td><strong>Icons</strong></td>
+    <td>Lucide React</td>
+  </tr>
+  <tr>
+    <td><strong>Animations</strong></td>
+    <td>Framer Motion</td>
+  </tr>
+</table>
+
+<h2>📁 Folder Structure (Planned)</h2>
+
+<pre>
+riverside-clone/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+</pre>
+
+```bash
+git clone https://github.com/yourusername/riverside-clone.git
+cd riverside-clone
+npm install
+npm run dev
+
